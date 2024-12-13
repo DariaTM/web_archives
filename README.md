@@ -103,7 +103,8 @@ $\textcolor{green}{\textsf{После выхода компьютера из р�
 
 
 
-https://github.com/DariaTM/web_archives/blob/master/wpull_metawarc/wpull_arch.mov
+
+[![Sample Video](https://github.com/DariaTM/web_archives/blob/master/wpull_metawarc/wpull_arch.mov)
 
 
 
