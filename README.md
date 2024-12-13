@@ -102,9 +102,7 @@ $\textcolor{green}{\textsf{Если wpull запущен, он может раб
 $\textcolor{green}{\textsf{После выхода компьютера из режима "сна", скачивание возобновляется и wpull продолжит работу.}}$
 
 
-
-
-[![Sample Video](https://github.com/DariaTM/web_archives/blob/master/wpull_metawarc/wpull_arch.mov)
+https://github.com/user-attachments/assets/8228988e-aaff-4884-96cc-ac36a0adcaed
 
 
 
