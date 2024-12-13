@@ -77,5 +77,5 @@ font/ttf                             1       3612    0.00037492
 2. `metawarc metadata --output digital_meta_andreyvoznesenski.ru.jsonl.warc.gz`
 
 
-Результаты работы команды мы можем пронаблюдать в файле [digital_meta_andreyvoznesenski.ru.jsonl](/digital_meta_andreyvoznesenski.ru.jsonl), который содержит всю информацию о метаданных архива.
+Результаты работы команды мы можем пронаблюдать в файле [digital_meta_andreyvoznesenski.ru.jsonl](./digital_meta_andreyvoznesenski.ru.jsonl), который содержит всю информацию о метаданных архива.
 
