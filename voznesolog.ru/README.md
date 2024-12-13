@@ -75,6 +75,6 @@ application/zip        2     35618    0.0587383
 
 2. `metawarc metadata --output digital_meta_voznesolog.ru.jsonl voznesolog.ru.warc.gz`
 
-Результаты работы команды мы можем пронаблюдать в файле [digital_meta_voznesolog.ru.jsonl](/digital_meta_voznesolog.ru.jsonl), который содержит всю информацию о метаданных архива.
+Результаты работы команды мы можем пронаблюдать в файле [digital_meta_voznesolog.ru.jsonl](./digital_meta_voznesolog.ru.jsonl), который содержит всю информацию о метаданных архива.
 
 
