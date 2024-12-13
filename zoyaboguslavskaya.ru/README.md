@@ -74,5 +74,5 @@ text/css                             2      2950    0.0272704
 2. `metawarc metadata --output digital_meta.jsonl zoyaboguslavskaya.ru.warc.gz`
 
 
-Результаты работы команды мы можем пронаблюдать в файле [digital_meta_zoyaboguslavskaya.jsonl](./digital_meta_zoyaboguslavskaya.jsonl)
+Результаты работы команды мы можем пронаблюдать в файле [digital_meta_zoyaboguslavskaya.jsonl](./digital_meta_zoyaboguslavskaya.ru.jsonl)
 
