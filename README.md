@@ -104,7 +104,7 @@ $\textcolor{green}{\textsf{После выхода компьютера из р�
 
 
 видео
-https://github.com/user-attachments/./wpull_metawarc/wpull_arch.mov
+[https://github.com/user-attachments/./wpull_metawarc/wpull_arch.mov](https://github.com/DariaTM/web_archives/blob/master/wpull_metawarc/wpull_arch.mov)
 
 
 
