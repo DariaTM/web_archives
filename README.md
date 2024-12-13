@@ -53,7 +53,6 @@ This repository contains a description of web archives collection created using 
 
 Подобная коллекция может быть полезной в академической среде, в частности, может быть использована для различных DH-исследований. 
 
- ![рисунок Collection](./pictures/Collection.png)
 
 ## В коллекцию входят сайты: ##
 
