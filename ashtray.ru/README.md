@@ -84,4 +84,38 @@ text/plain                           1        338    4.67982e-05
 
 Результаты работы команды мы можем пронаблюдать в файле [digital_meta_ashtray.ru.jsonl](./digital_meta_ashtray.ru.jsonl), который содержит всю информацию о метаданных архива.
 
+3. `metawarc index ashtray.ru.warc.gz` - анализируеn «ashtray.ru.warc.gz» и записывает «metawarc.db» с метаданными HTTP.
+   `metawarc stats -m mimes` - обрабатывает данные в «metawarc.db» и выводит общую длину и количество для каждого MIME               
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━┓
+┃ mime                            ┃ size      ┃ count ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━┩
+│ None                            │ 1158      │     2 │
+│ application/javascript          │ 107431    │     3 │
+│ application/msword              │ 1180617   │    25 │
+│ application/vnd.ms-fontobject   │ 3797      │     1 │
+│ application/x-rar-compressed    │ 9426552   │    68 │
+│ application/x-shockwave-flash   │ 360344    │     2 │
+│ application/xml                 │ 16378     │    22 │
+│ application/zip                 │ 3623922   │     6 │
+│ audio/mpeg                      │ 367549973 │    90 │
+│ audio/x-ms-wma                  │ 113830804 │    20 │
+│ audio/x-wav                     │ 1925344   │     2 │
+│ font/ttf                        │ 3612      │     1 │
+│ font/woff                       │ 4465      │     1 │
+│ image/gif                       │ 52248247  │  1109 │
+│ image/jpeg                      │ 90847795  │  1825 │
+│ image/png                       │ 1058771   │     2 │
+│ text/css                        │ 23022     │     2 │
+│ text/html                       │ 28993415  │  1817 │
+│ text/html; charset=iso-8859-1   │ 109021    │   226 │
+│ text/html; charset=utf-8        │ 2277638   │    14 │
+│ text/html; charset=windows-1251 │ 197730    │    20 │
+│ text/plain                      │ 338       │     1 │
+│ video/mp4                       │ 957667992 │     5 │
+│ video/x-ms-wmv                  │ 38728698  │     2 │
+│ video/x-msvideo                 │ 15467642  │     6 │
+└─────────────────────────────────┴───────────┴───────┘
+
+
+
 
