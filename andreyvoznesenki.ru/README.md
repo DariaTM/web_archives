@@ -79,3 +79,37 @@ font/ttf                             1       3612    0.00037492
 
 Результаты работы команды мы можем пронаблюдать в файле [digital_meta_andreyvoznesenski.ru.jsonl](./digital_meta_andreyvoznesenski.ru.jsonl), который содержит всю информацию о метаданных архива.
 
+3. `metawarc index ashtray.ru.warc.gz` - анализируеn «ashtray.ru.warc.gz» и записывает «metawarc.db» с метаданными HTTP.
+   `metawarc stats -m mimes` - обрабатывает данные в «metawarc.db» и выводит общую длину и количество для каждого MIME
+   <pre>
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━┓
+┃ mime                            ┃ size       ┃ count ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━┩
+│ None                            │ 1158       │     2 │
+│ application/javascript          │ 214862     │     6 │
+│ application/msword              │ 1211584    │    26 │
+│ application/vnd.ms-fontobject   │ 7594       │     2 │
+│ application/x-rar-compressed    │ 9426552    │    68 │
+│ application/x-shockwave-flash   │ 360344     │     2 │
+│ application/xml                 │ 16378      │    22 │
+│ application/zip                 │ 3623922    │     6 │
+│ audio/mpeg                      │ 367549973  │    90 │
+│ audio/x-ms-wma                  │ 113830804  │    20 │
+│ audio/x-wav                     │ 1925344    │     2 │
+│ font/ttf                        │ 7224       │     2 │
+│ font/woff                       │ 8930       │     2 │
+│ image/gif                       │ 52283164   │  1117 │
+│ image/jpeg                      │ 94728592   │  1909 │
+│ image/png                       │ 2117542    │     4 │
+│ text/css                        │ 46044      │     4 │
+│ text/html                       │ 28993415   │  1817 │
+│ text/html; charset=iso-8859-1   │ 109021     │   226 │
+│ text/html; charset=utf-8        │ 2669350    │    22 │
+│ text/html; charset=windows-1251 │ 395460     │    40 │
+│ text/plain                      │ 338        │     1 │
+│ video/mp4                       │ 1915335984 │    10 │
+│ video/x-ms-wmv                  │ 38728698   │     2 │
+│ video/x-msvideo                 │ 15467642   │     6 │
+└─────────────────────────────────┴────────────┴───────┘
+</pre>
+
