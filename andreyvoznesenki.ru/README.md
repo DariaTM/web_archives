@@ -76,12 +76,11 @@ font/ttf                             1       3612    0.00037492
 
 2. `metawarc metadata --output digital_meta_andreyvoznesenski.ru.jsonl.warc.gz`
 
-
 Результаты работы команды мы можем пронаблюдать в файле [digital_meta_andreyvoznesenski.ru.jsonl](./digital_meta_andreyvoznesenski.ru.jsonl), который содержит всю информацию о метаданных архива.
 
 3. `metawarc index andreyvoznesenski.ru.warc.gz` - анализируеn «andreyvoznesenski.ru.warc.gz» и записывает «metawarc.db» с метаданными HTTP.
    `metawarc stats -m mimes` - обрабатывает данные в «metawarc.db» и выводит общую длину и количество для каждого MIME
-   <pre>
+<pre>
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━┓
 ┃ mime                            ┃ size       ┃ count ┃
 ┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━┩
