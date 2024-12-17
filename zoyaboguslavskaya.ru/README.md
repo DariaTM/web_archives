@@ -73,6 +73,41 @@ text/css                             2      2950    0.0272704
 
 2. `metawarc metadata --output digital_meta.jsonl zoyaboguslavskaya.ru.warc.gz`
 
-
 Результаты работы команды мы можем пронаблюдать в файле [digital_meta_zoyaboguslavskaya.jsonl](./digital_meta_zoyaboguslavskaya.ru.jsonl)
 
+3. `metawarc index zoyaboguslavskaya.ru.warc.gz` - анализируеn «zoyaboguslavskaya.ru.warc.gz» и записывает «metawarc.db» с метаданными HTTP.
+   `metawarc stats -m mimes` - обрабатывает данные в «metawarc.db» и выводит общую длину и количество для каждого MIME
+<pre>
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━┓
+┃ mime                            ┃ size       ┃ count ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━┩
+│ None                            │ 1158       │     2 │
+│ application/javascript          │ 338776     │    10 │
+│ application/msword              │ 1271470    │    28 │
+│ application/pdf                 │ 5769700    │     4 │
+│ application/vnd.ms-fontobject   │ 7594       │     2 │
+│ application/x-rar-compressed    │ 9426552    │    68 │
+│ application/x-shockwave-flash   │ 476404     │     4 │
+│ application/xml                 │ 63808      │    23 │
+│ application/zip                 │ 3659540    │     8 │
+│ audio/mpeg                      │ 367549973  │    90 │
+│ audio/x-ms-wma                  │ 113830804  │    20 │
+│ audio/x-wav                     │ 1925344    │     2 │
+│ font/ttf                        │ 7224       │     2 │
+│ font/woff                       │ 8930       │     2 │
+│ image/gif                       │ 53731465   │  1388 │
+│ image/jpeg                      │ 137230864  │  2747 │
+│ image/png                       │ 2117542    │     4 │
+│ image/svg+xml                   │ 44912      │     2 │
+│ text/css                        │ 138796     │    18 │
+│ text/html                       │ 48775394   │  3181 │
+│ text/html; charset=iso-8859-1   │ 109021     │   226 │
+│ text/html; charset=utf-8        │ 3061062    │    30 │
+│ text/html; charset=windows-1251 │ 1436948    │   108 │
+│ text/plain                      │ 338        │     1 │
+│ video/mp4                       │ 1915335984 │    10 │
+│ video/x-ms-wmv                  │ 38728698   │     2 │
+│ video/x-msvideo                 │ 15467642   │     6 │
+└─────────────────────────────────┴────────────┴───────┘
+</pre>
+   
