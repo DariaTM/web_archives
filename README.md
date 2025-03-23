@@ -99,18 +99,12 @@ $\textcolor{green}{\textsf{Если wpull запущен, он может раб
 $\textcolor{green}{\textsf{После выхода компьютера из режима "сна", скачивание возобновляется и wpull продолжит работу.}}$
 
 
-https://github.com/user-attachments/assets/8228988e-aaff-4884-96cc-ac36a0adcaed
-
-
-
 **3.** Воспроизвести полученные архивы удалось с помощью сервиса [ReplayWeb.page](https://replayweb.page/).
 
 
  ![рисунок replaywebpage_collection](./pictures/replaywebpage_collection.png)
 
 **4.** Наконец, для каждого архива мы произвели анализ метаданных с помощью `Python`-библиотеки `metawarc` (как установить metawarc см. [`тут`](https://github.com/datacoon/metawarc)).
-
-
 
 
 ## Структура репозитория
